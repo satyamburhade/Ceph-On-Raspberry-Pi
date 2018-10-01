@@ -66,3 +66,6 @@ sudo eopkg it etcher
 # Uninstall
 
 +sudo eopkg rm etcher
+
+# Manually Install OS on Raspberry pi
+ xzcat Fedora-IMAGE-NAME.raw.xz | sudo dd status=progress bs=4M of=/dev/XXX # Location of your media (will be sdX or mmcblkX depending on hardware)
